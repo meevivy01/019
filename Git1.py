@@ -94,10 +94,10 @@ if os.path.exists(CLIENTS_PATH):
     except: pass
 
 # --- TARGET CONFIG ---
-TARGET_UNIVERSITIES = ["สงขลานครินทร์","Prince of Songkla University", "PSU"]  
-TARGET_FACULTIES = ["เครื่องสำอาง","Cosmetic Science"] 
-TARGET_MAJORS = ["เครื่องสำอาง", "วิทยาศาสตร์เครื่องสำอาง","Cosmetic Science", "Cosmetics", "Cosmetic"]
-SEARCH_KEYWORDS = ["สงขลานครินทร์ เครื่องสำอาง","Cosmetic songkla"]
+TARGET_UNIVERSITIES = ["แม่ฟ้าหลวง","มหาลัยแม่ฟ้าหลวง", "Mae Fah Luang University"]  
+TARGET_FACULTIES = ["เครื่องสำอาง","Cosmetic Science","ความงาม","Beauty"] 
+TARGET_MAJORS = ["เครื่องสำอาง", "วิทยาศาสตร์เครื่องสำอาง","Cosmetic Science", "Cosmetics", "Cosmetic","ความงาม","Beauty"]
+SEARCH_KEYWORDS = ["แม่ฟ้าหลวง เทคโนโลยีความงาม"] #"Cosmetic Mae Fah Luang", "Technology Mae Fah Luang"
 
 
 KEYWORDS_CONFIG = {
@@ -1043,3 +1043,4 @@ if __name__ == "__main__":
         exit()
     scraper = JobThaiRowScraper()
     scraper.run()
+
